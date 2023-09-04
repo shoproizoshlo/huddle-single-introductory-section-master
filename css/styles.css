@@ -1,0 +1,75 @@
+/* 
+## Colors
+
+### Primary
+
+- Violet: hsl(257, 40%, 49%)
+- Soft Magenta: hsl(300, 69%, 71%)
+
+## Typography
+
+### Headings
+
+font-family: 'Poppins', sans-serif;
+- Weights: 400, 600
+
+### Body
+
+font-family: 'Open Sans', sans-serif;
+- Weights: 400 */
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+body {
+  background-image: url(/images/bg-desktop.svg);
+  background-color: var(--violet);
+  background-repeat: no-repeat;
+}
+.container {
+  margin: 4% auto;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.text-area {
+  padding: 40px 65px;
+}
+.heading {
+  line-height: 60px;
+}
+.button {
+  color: var(--violet);
+  padding: 15px 55px;
+  border: 1px solid var(--violet);
+  border-radius: 50px;
+  box-shadow: -1px 11px 20px rgba(0, 0, 0, 0.2);
+}
+ul {
+  padding: 0;
+  margin: 5% 0;
+  list-style: none;
+}
+li {
+  margin: 5px;
+  display: inline;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+li:nth-child(1) {
+  padding: 7px 14px;
+}
+li:nth-child(2) {
+  padding: 7px 11px;
+}
+li:nth-child(3) {
+  padding: 7px 9px;
+}
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
